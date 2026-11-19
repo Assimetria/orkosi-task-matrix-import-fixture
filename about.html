@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Harbour Notes</title>
+    <meta name="description" content="What the Harbour Notes fixture site is and why the Orkosi release matrix imports it." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Harbour Notes</a>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section class="hero">
+        <h1>About this site</h1>
+        <p>
+          This repository is owned by the platform and imported on every run of the release matrix. The import births a
+          product, the product's first build must go green, and one code change is then filed on it.
+        </p>
+      </section>
+      <section class="notes">
+        <h2>What the import proves</h2>
+        <ul>
+          <li>A public repository is read without a GitHub connection.</li>
+          <li>The pages become routes of the product's template.</li>
+          <li>The product builds and deploys on its test copy.</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>Harbour Notes is a test fixture of Orkosi. Nothing here is a real service.</p>
+    </footer>
+  </body>
+</html>
